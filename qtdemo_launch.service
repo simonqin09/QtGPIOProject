@@ -1,0 +1,10 @@
+[Unit]
+Description=Qt demo application on framebuffer
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/root/qtdemo.sh
+
+[Install]
+WantedBy=multi-user.target
