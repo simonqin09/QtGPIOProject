@@ -20,3 +20,9 @@ HEADERS  += mainwindow.h \
     GPIOSet.h
 
 FORMS    += mainwindow.ui
+
+# deployment on Linux
+unix {
+   target.path = /usr/bin/
+   INSTALLS += target \
+} 
