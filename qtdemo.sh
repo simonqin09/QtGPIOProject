@@ -35,6 +35,5 @@ export TSLIB_CALIBFILE=/etc/pointercal
 #export QT_QPA_FB_HIDECURSOR=1
 
 
-cd /home/root/
-./helloworldUI
+helloworldUI
 
