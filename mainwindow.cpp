@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->count = 0;
-    this->gpio_out = 54;
+    this->gpio_out = 38;
     gpio_export(this->gpio_out);
     gpio_set_dir(this->gpio_out, "out");
     gpio_set_value(this->gpio_out, LOW);

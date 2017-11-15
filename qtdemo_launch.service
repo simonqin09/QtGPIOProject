@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/home/root/qtdemo.sh
+ExecStart=/usr/bin/qtdemo.sh
 
 [Install]
 WantedBy=multi-user.target
